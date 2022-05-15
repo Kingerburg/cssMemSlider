@@ -8,55 +8,49 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-</head>
+    <title>Css Mem Slider</title></head>
 <body>
-<div class="container">
-    <div class="slider">
-        <input type="radio" name="sr" id="slid1" checked>
-        <input type="radio" name="sr" id="slid2">
-        <input type="radio" name="sr" id="slid3">
-        <input type="radio" name="sr" id="slid4">
-        <div id="preview">
-            <div class="slide">
-                <div class="back"><img src="img/1.jpg" alt=""></div>
-                <div class="start"><img src="img/1.jpg" alt=""></div>
+    <div class="container">
+        <input class="checkbox" type="radio" name="btn" id="slider1" checked>
+        <input class="checkbox" type="radio" name="btn" id="slider2">
+        <input class="checkbox" type="radio" name="btn" id="slider3">
+        <input class="checkbox" type="radio" name="btn" id="slider4">
+        <div class="container-slider">
+            <div id="controls">
+                <div class="block-text">
+                    <p class="text-slider">Убедись , что дедлайн не завтра.</p>
+                    <p class="text-slider">Как HTML без CSS</p>
+                    <p class="text-slider">teru, treu, esle, flase , fasle</p>
+                    <p class="text-slider">А ты на чем программируешь?</p>
+                </div>
+                <div class="block-input">
+                    <div class="block-label">
+                        <label class="label-main" for="slider1">
+                            <label class="label-input input1" for="slider1">
+                            </label>
+                        </label>
+                        <label class="label-main" for="slider2">
+                            <label class="label-input input2" for="slider2">
+                            </label>
+                        </label>
+                        <label class="label-main" for="slider3">
+                            <label class="label-input input3" for="slider3">
+                            </label>
+                        </label>
+                        <label class="label-main" for="slider4">
+                            <label class="label-input input4" for="slider4">
+                            </label>
+                        </label>
+                    </div>
+                </div>
             </div>
-            <div class="slide">
-                <div class="back"><img src="img/2.jpg" alt=""></div>
-                <div class="start"><img src="img/2.jpg" alt=""></div>
+            <div id="slider">
+                <img src="img/1.jpg" alt="" class="main">
+                <img src="img/2.jpg" alt="" class="main">
+                <img src="img/3.jpg" alt="" class="main">
+                <img src="img/4.jpg" alt="" class="main">
             </div>
-            <div class="slide">
-                <div class="back"><img src="img/3.jpg" alt=""></div>
-                <div class="start"><img src="img/3.jpg" alt=""></div>
-            </div>
-            <div class="slide">
-                <div class="back"><img src="img/4.jpg" alt=""></div>
-                <div class="start"><img src="img/4.jpg" alt=""></div>
-            </div>
-        </div>
-        <div id="controls">
-            <div id="preview-text">
-                <p class="text">Убедись , что дедлайн не завтра.</p>
-                <p class="text">Естественную красоту никто не отменял</p>
-                <p class="text">teru, treu, esle, flase , fasle</p>
-                <p class="text">А ты на чем программируешь?</p>
-
-            </div>
-            <label class="block-label" for="slid1">
-                <label class="label1" for="slid1"></label>
-            </label>
-            <label class="block-label" for="slid2">
-                <label class="label2" for="slid2"></label>
-            </label>
-            <label class="block-label" for="slid3">
-                <label class="label3" for="slid3"></label>
-            </label>
-            <label class="block-label" for="slid4">
-                <label class="label4" for="slid4"></label>
-            </label>
         </div>
     </div>
-</div>
 </body>
 </html>
